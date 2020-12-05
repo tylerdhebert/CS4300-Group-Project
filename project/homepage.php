@@ -199,12 +199,7 @@
 	<div class="row">
 		<div class="column-two" id="tyler">
 			<img src="pics/tyler.jpg" style="width:300px; height: 300px">
-			<p id="tylerParagraph" style="margin-left: 20.2em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p id="tylerParagraph" style="margin-left: 20.2em;">Tyler Hebert is a senior at the University of Houston-Downtown. Before attendint UHD, Tyler earned a general Associates of Arts degree from Lone Star College. Previously a business major, Tyler built an interest in programming when he began learning to program on his own one summer. Tyler has experience programming with Java, C++, C#, Python, x86 Assembly, HTML, CSS, PHP, and JavaScript. Though he loves video games, Tyler plans to pursue a career in enterprise programming. Tyler also has a keen interest in UX design and hopes to find an internship in that field. In his free time, he likes to hang out with his girlfriend, his cat, or play video games with his friends.</p>
 		</div>
 		<div class="column-two" id="nabil">
 			<img src="pics/nabil.png" style="width:300px; height: 300px">
