@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>Tariq Ali</title>
+      <link rel = "stylesheet" type = "text/css" 
+         href = "style.css">
+   </head>
+
+   <body>
+       <img src="me.jpeg" width="350px" height="400px">
+      <h1>Tariq Ali!</h1>
+      <form style="display: inline-block;" action="../../homepage.php">
+         <input type="submit" value="Take me back" />
+      </form>
+      <br>
+      <a href="https://www.youtube.com/watch?v=SlPhMPnQ58k">Check my favorite song.</a>
+      <p> My name is Tariq Ali . I am 23y and I am a senior at the University of Houston-Downtown, majoring in computer science. 
+          <br> I was born in Karachi, Pakistan and then i moved to Texas with my family in 2008. 
+          <br> I went to Elisk High School and then i went to Houston Community College for my associates.  
+          <br> I am a Huge Sports person i almost like every other sports but i am a huge cricket and football fan, i love to watch and play these 2 sports. Every sunday is my cricket day if i don't have any assignments or exams coming up. 
+          <br> I also love to travel i have been to alot of coutries but my favorite so far is England and Belgium, Specially the Belgium Hot Chocolate. and i ll be travelling to Australia right after the pandamic is over. (hopefully soon). 
+          <br> I am a huge foodie person i like to try all kind of dishes from everyone but my favorite is streak and sushi with some wine.
+          <br> I like to build websites, I have a little experience doing it, and I am super enthusiastic to be in this class and I hope to learn more. 
+      </p>
+      <h3>Things I can't live without</h3>
+      <ul>
+         <li> sports</li>
+         <li> Music</li>
+         <li> Gym</li>
+         <li> Travelling</li>
+         <li> Movies</li>
+      </ul>
+      <table border = "1">
+
+         <!-- the <caption> tag summarizes the table's -->
+         <!-- contents (this helps visually impaired people) -->
+         <caption> <b>Table of my classes number and 
+		    Time <b></caption>
+      <thead>
+         <tr> <!-- <tr> inserts a table row -->
+            <th>Number</th> <!-- insert a heading cell -->
+            <th>Day & Time</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>CS 4294</td> <!-- insert a data cell -->
+            <td>Tuesday - 4 PM </td>
+         </tr>
+         <tr>
+            <td>CS 4300</td>
+            <td>Monday Wednesday - 11:30 AM</td>
+         </tr>
+         <tr>
+            <td>Math 2303</td>
+            <td>Tuesday - 1 PM</td>
+         </tr>
+         <tr>
+            <td>CS 2302</td>
+            <td>Monday - 2:30 PM</td>
+         </tr>
+         <tr>
+            <td>CS 4321</td>
+            <td>Online</td>
+         </tr>
+      </tbody>
+   </table>
+   <h1>Question form</h1>
+
+   <p>Please feel free to ask me any question.</p>
+
+   <!-- this tag starts the form, gives the -->
+   <!-- method of sending information and the -->
+   <!-- location of the form-processing script -->
+   <form method = "post" action = "http://www.Tariq.com">
+      <!-- hidden inputs contain non-visual -->
+      <!-- information that will also be submitted -->
+      <input type = "hidden" name = "recipient"
+         value = "Tariq@tariq.com">
+      <input type = "hidden" name = "subject" 
+         value = "Feedback Form">
+      <input type = "hidden" name = "redirect" 
+         value = "main.html"> 
+
+      <!-- <input type = "text"> inserts a text field -->
+      <p><label>Name:
+            <input name = "name" type = "text" size = "25"
+               maxlength = "30">
+         <label> Question:
+            <input question = "question" type = "text" size = "25"
+            maxlength = "300">
+         </label></p>
+
+      <p>
+         <!-- input types "submit" and "reset" insert -->
+         <!-- buttons for submitting and clearing the -->
+         <!-- form's contents, respectively -->
+         <input type = "submit" value = "Submit">
+         <input type = "reset" value = "Clear">
+      </p>   
+   </form>
+   </body>
+</html>
