@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!-- Fig. 2.1: main.html -->
+<!-- First HTML5 example. -->
+<html>
+   <head>
+      <meta charset = "utf-8">
+      <title>More About Nabil Mehari</title>
+       <link href = 'http://fonts.googleapis.com/css?family=Nunito'
+         rel = 'stylesheet' type='text/css'>
+      <style type = "text/css">
+         body 
+         {
+         	background-image: url(NightCity.jpg);
+         	background-position: bottom;
+         	background-repeat: repeat;
+         	text-shadow: 3px 3px 3px Black; 
+         	color: White;
+         }
+         img.below
+         {
+            -webkit-box-reflect: below 5px
+               -webkit-gradient(
+                  linear, left top, left bottom, 
+                  from(transparent), to(white));
+         }
+         img.right
+         {
+            -webkit-box-reflect: right 5px
+               -webkit-gradient(
+                  linear, right top, left top, 
+                  from(transparent), to(white));
+         }
+                  .flexbox 
+         {
+            width: 600px;
+            height: 420px;
+            display: -webkit-box;
+            display: box;
+            -webkit-box-orient: vertical;
+            box-orient: vertical;
+         }
+         div {
+  			background-color: lightblue;
+  			width: 700px;
+  			padding: 25px;
+  			border: 25px solid navy;
+  			margin: 25px
+		  }
+		 @media screen and (max-width: 1024px) {
+		 	body {
+				background-image: url(NightCity.jpg);
+ 		 	}
+ 		 }
+ 		 @media (min-width: 1025px) {
+ 		 	body{
+ 		 		background-image: url(DayCity.jpg);
+ 		 	}
+ 		 }
+      </style>
+   </head>
+
+   <body>
+      <font face = "Nunito" size = "10">Welcome to My Webpage</font><br />
+      <p><img class = "right" src = "Nabil2.png" width = "200" height = "250"
+         alt = "Nabil's Photo"></p>
+      <form style="display: inline-block;" action="../../homepage.php">
+    		<input type="submit" value="Take me back" />
+	  </form>        
+      <div>	As the title of the HTML5 page implies, my name is Nabil Mehari. I'm 25 years old (as of a few months ago), was born & raised in Houston, & am a Computer Science major at University of Houston - Downtown who's projected to graduate this December. Outside of my future work as a programmer, I've been acting for over 15 years & have been doing musical theatre for half that time. Though since getting a well-paying stage theatre gig is a slim chance, I figured that I could use a profession that pays well that I also enjoy, hence why I chose to be a programmer (as it spawned from my early dreams of being a game designer, which I could still do with my degree). A more specific breakdown of my school history is shown below...</div>
+      <div><table border = "1">
+         <caption><strong>Nabil's College History</strong></caption>
+         <thead>
+            <tr>
+               <th>College</th> 
+               <th>Duration</th>
+               <th>Major</th>
+               <th>Ending Reason</th>
+            </tr>
+         </thead>
+         <tbody>
+         	<tr>
+         	   <td>Lone Star College</td>
+               <td>March 2015 to June 2018</td>
+               <td>Computer Science</td>
+               <td>Transfer to UHD</td>
+            </tr>
+               <td>University of Houston - Downtown</td>
+               <td>August 2018 to December 2020</td>
+               <td>Computer Science</td>
+               <td>Graduation</td>
+            </tr>
+         </tbody>
+      </table></div>
+      <div>I also cook, play video games (hence the game design thing), & exercise (though the latter is limited due to the pandemic). I started off at Lone Star College - Cy-Fair for Computer Science before making my way to UHD, but I found that I learned a lot along the way. Thanks to my training, I now know the following coding languages...</div>
+      <div><ul>
+      	<li>C++</li>
+      	<li>C#</li>
+      	<li>Java</li>
+      	<li>Python</li>
+      	<li>Assembly</li>
+      	<li>HTML</li>
+      </ul></div>
+      <div>If you have any questions, feel free to reach out to me via email (nabilmehari@gmail.com) or Twitter.</div>
+      <div><p><a href = "https://twitter.com/Neoxon619">My Twitter Account</a></p>
+      <p><a href = "https://www.linkedin.com/in/nabil-mehari-9b7a391a9/">My LinkedIn Account</a></p></div>
+      
+   </body> 
+</html>

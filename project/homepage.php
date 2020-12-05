@@ -182,7 +182,7 @@
 			<table>
 				<tr>
 					<td class="rowOne names"><a href="pages/tyler/index.php">Tyler Hebert</a></td>
-					<td class="rowOne names">Nabil Mehari</td>
+					<td class="rowOne names"><a href="pages/nabil/index.html">Nabil Mehari</a></td>
 				</tr>
 				<tr >
 					<td class="names"><a href="pages/keren/index.html">Keren Nino</a></td>
